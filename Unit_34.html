@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Form Exercise</title>
+    </head>
+    <body>
+        <h1>Register</h1>
+        <form>
+            <label for="firstname">First Name: </label>
+                <input id="firstname" type="text" placeholder="John" name="firstname" required>
+            <label for="lastname">Last Name: </label>
+                <input id="lastname" type="text" placeholder="Smith" name="lastname" required><br/>
+            <label for="male">Male:</label>
+                <input id="male" type="radio" name="gender" value="Male">
+            <label for="female"> Female:</label>
+                <input id="female" type="radio" name="gender" value="Female">
+            <label for="other"> Other:</label>
+                <input id="other" type="radio" name="gender" value="Other"><br/>
+            <label for="email">Email: </label>
+                <input id="email" type="email" placeholder="your email" name="email" required>
+            <label for="password">Password: </label>
+                <input id="password" type="password" name="pass" required><br/>
+
+            <span>Birthday: </span>
+            <select name="month" required>
+                <option disabled selected>month</option>
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+                <option>April</option>
+                <option>May</option>
+                <option>June</option>
+                <option>July</option>
+                <option>August</option>
+                <option>September</option>
+                <option>October</option>
+                <option>November</option>
+                <option>December</option>
+            </select>
+            <select name="day" required>
+                <option disabled selected>day</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>9</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+            </select>
+            <select name="year" required>
+                <option disabled selected>year</option>
+                <option>2017</option>
+                <option>2016</option>
+                <option>2015</option>
+                <option>2014</option>
+                <option>2013</option>
+            </select><br/>
+            <label for="agreed">I agree to the terms and conditions</label>
+            <input id="agreed" type="checkbox" name="agreed" value="YES" required><br/>
+            <input type="submit">
+        </form>
+    </body>
+</html>
