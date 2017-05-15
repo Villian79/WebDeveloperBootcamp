@@ -1,0 +1,30 @@
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+td {
+    text-align: center;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+thead {
+    text-align: center;
+}
+
+.top {
+    border-top: none;
+}
+
+.left {
+    border-left: none;
+}
+
+.right {
+    border-right: none;
+}
+
+.bottom {
+    border-bottom: none;
+}
