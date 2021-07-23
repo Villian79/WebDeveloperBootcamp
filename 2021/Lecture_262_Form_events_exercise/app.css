@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    font-family: 'Garamond', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#list {
+    text-align: left;
+}
