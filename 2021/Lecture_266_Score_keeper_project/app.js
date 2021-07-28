@@ -1,10 +1,15 @@
+let player1 = prompt('Player 1: Enter your name please');
+let player2 = prompt('Player 2: Enter your name please');
+
 let p1 = {
+    name: document.querySelector('#p1Name'),
     score: 0,
     button: document.querySelector('#p1Button'),
     display: document.querySelector('#p1Display'),
 };
 
 let p2 = {
+    name: document.querySelector('#p2Name'),
     score: 0,
     button: document.querySelector('#p2Button'),
     display: document.querySelector('#p2Display'),
@@ -12,6 +17,8 @@ let p2 = {
 
 const reset = document.querySelector('#reset');
 const winningScoreSelect = document.querySelector('#playTo');
+p1.name.innerText = player1;
+p2.name.innerText = player2;
 
 let winningScore = 5,
     gameOver = false;
